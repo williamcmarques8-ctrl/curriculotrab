@@ -1,0 +1,238 @@
+body{
+    background-color: rgb(6, 0, 32);
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.olaimg{
+    width: 25rem;
+    border: 8px solid rgb(31, 33, 73);
+}
+
+.oladiv1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12rem;
+    border-bottom: 1px solid rgb(31, 33, 73);
+    height: 90vh;
+}
+
+.oladiv3{
+    display: flex;
+    gap: 1.4rem;
+}
+
+.olaimgpequena{
+    gap: 3rem;
+    margin-top: 2rem;
+    height: 2.5rem;
+}
+
+.tituloh2{
+    margin: 0;
+    margin-top: 20vh;
+    color: white;
+    font-size: 3rem;
+
+}
+
+.olah21{
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+}
+
+.olah2{
+    margin: 0;
+    color: rgb(81, 83, 116);
+    font-size: 3rem;
+}
+
+
+.sobrediv1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0vh;
+
+}
+
+.sobrediv2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    
+}
+
+.sobrediv3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+
+}
+
+.sobrediv4{
+width: 50vh;
+}
+
+.sobreimg{
+    
+    width: 20rem;
+}
+
+.experdiv1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    gap: 3vh;
+}
+
+.experdiv2{
+    display: flex;
+    width: 100vh;
+}
+
+.experdiv3{
+    width: 80vh;
+
+}
+
+.experp1{
+    width: 17vh;
+}
+
+.experh4, .experp1{
+    margin: 0;
+}
+
+.divespaco{
+    display: flex;
+    
+}
+
+.tituloh2exper{
+    margin: 0;
+    margin-bottom: 7vh;
+    color: white;
+    font-size: 3rem;
+    font-family: "Inter", sans-serif;
+}
+
+.formacaodiv1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    gap: 3vh;
+}
+
+.formacaodiv3{
+    display: flex;
+    justify-content: space-between;
+    width: 100vh;
+    margin-top: 5vh;
+    border-bottom: 1px solid rgb(31, 33, 73);
+}
+
+.formacaodiv41{
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+}
+
+.formacaodiv42{
+    gap: 2vh;
+    display: flex;
+    align-items: center;
+    
+   
+}
+
+.formacaoimg{
+    height: 5rem;
+    margin-bottom: 0.8rem ;
+}
+
+.formacaoh3{
+    margin: 0;
+}
+
+.formacaoh4{
+    margin: 0;
+}
+
+.formacaop{
+    margin: 0;
+}
+
+
+
+
+.contatodiv1{
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contatodiv2{
+    display: flex;
+    gap: 10vh;
+}
+
+
+.contatobutton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 5vh;
+    width: 50vh;
+    height: 6vh;
+    background-color: rgb(6, 0, 32);
+    border: 3px solid rgb(67, 67, 77);
+    border-radius: 0.5rem;
+}
+
+.contatobutton:hover{
+    background-color: rgb(31, 33, 73);
+    transition: 0.5s;
+}
+
+.contatobutton:active{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.contatodiv3{
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+}
+
+.contatoimg{
+    width: 5vh;
+}
+
+.contatoimg1{
+    width: 4.7vh;
+}
+
+.contatop{
+    margin-top: 15vh;
+}
+
+.seta{
+    margin-right: 1vh;
+    width: 2vh;
+    height: 2vh;
+}
+
+a{
+    text-decoration: none;
+}
