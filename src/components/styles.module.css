@@ -90,11 +90,13 @@ width: 50vh;
     align-items: center;
     margin-top: 10vh;
     gap: 3vh;
+
 }
 
 .experdiv2{
     display: flex;
     width: 100vh;
+    gap: 2vh;
 }
 
 .experdiv3{
@@ -182,7 +184,7 @@ width: 50vh;
 
 .contatodiv2{
     display: flex;
-    gap: 10vh;
+    gap: 10vh;https://github.com/williamcmarques8-ctrl/curriculotrab
 }
 
 
