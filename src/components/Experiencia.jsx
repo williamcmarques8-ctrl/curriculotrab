@@ -3,9 +3,9 @@ import styles from './styles.module.css'
 export default function Experiencia(){
 
     return(
-        <div className={styles.experdiv1}>
+        <div className={styles.experdiv1} id="experiencia">
 
-            <h2 className={styles.tituloh2exper}>Experiencia</h2>
+            <h2 className={styles.tituloh2exper}>Experiências</h2>
 
             <div className={styles.experdiv2}>
                 <p className={styles.experp1}>jun 2024-jun 2024</p>

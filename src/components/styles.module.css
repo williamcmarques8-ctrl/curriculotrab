@@ -4,13 +4,17 @@ body{
     font-family: "Inter", sans-serif;
 }
 
+
+
+
+
+
 .olaimg{
     width: 25rem;
     border: 8px solid rgb(31, 33, 73);
 }
 
 .oladiv1{
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +29,6 @@ body{
 }
 
 .olaimgpequena{
-    gap: 3rem;
     margin-top: 2rem;
     height: 2.5rem;
 }
@@ -49,6 +52,14 @@ body{
     color: rgb(81, 83, 116);
     font-size: 3rem;
 }
+
+
+
+
+
+
+
+
 
 
 .sobrediv1{
@@ -80,9 +91,17 @@ width: 50vh;
 }
 
 .sobreimg{
-    
     width: 20rem;
 }
+
+
+
+
+
+
+
+
+
 
 .experdiv1{
     display: flex;
@@ -125,6 +144,15 @@ width: 50vh;
     font-family: "Inter", sans-serif;
 }
 
+
+
+
+
+
+
+
+
+
 .formacaodiv1{
     display: flex;
     flex-direction: column;
@@ -151,8 +179,6 @@ width: 50vh;
     gap: 2vh;
     display: flex;
     align-items: center;
-    
-   
 }
 
 .formacaoimg{
@@ -160,17 +186,16 @@ width: 50vh;
     margin-bottom: 0.8rem ;
 }
 
-.formacaoh3{
+.formacaoh4, .formacaop, .formacaoh3 {
     margin: 0;
 }
 
-.formacaoh4{
-    margin: 0;
-}
 
-.formacaop{
-    margin: 0;
-}
+
+
+
+
+
 
 
 
@@ -235,6 +260,129 @@ width: 50vh;
     height: 2vh;
 }
 
+
+
 a{
     text-decoration: none;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.cabecalhodiv1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalhodiv2{
+    display: flex;
+    gap:2rem;
+}
+
+.cabecalhoa{
+    color: white;
+}
+
+.cabecalhoa:hover{
+    border-bottom: solid 3px rgb(31, 33, 73);
+}
+.cabecalhoa:active{
+    border-bottom: solid 3px rgb(255, 255, 255);
+    color: white;
+}
+.cabecalhoh2{
+    margin:0;
+}
+
+
+
+
+
+@media (max-width: 1100px) {
+    .contatobutton{
+        width: 20vh;
+    }
+    .contatoimg1, .contatoimg{
+    width: 3vh;
+    }
+
+    .formacaodiv3{
+        width: 50vh;
+    }
+    .formacaoimg{
+        height:3rem;
+    }
+    .formacaoh4{
+        font-size:0.7rem;
+    }
+    .formacaop{
+        font-size: 0.6rem;
+    }
+    .formacaoh3{
+        font-size: 0.7rem;
+    }
+
+    .experdiv2{
+        width:50vh
+    }
+    .experp1{
+        font-size:0.53rem;
+    }
+    .experp2{
+        font-size:0.6rem;
+    }
+    .experh4{
+        font-size:0.7rem;
+        margin:-2px;
+    }
+
+    .sobreimg{
+        width: 10rem;
+    }
+    .sobrep{
+        font-size: 0.6rem;
+    }
+    .sobrediv3{
+        width:48vh;
+    }
+    
+    .olaimg{
+        width: 10rem;
+        border: 5px solid rgb(31, 33, 73);
+    }
+    .oladiv1{
+        gap:2rem ;
+    }
+    .oladiv3{
+        gap:1rem;
+    }
+    .olah21{
+        font-size: 1.7rem;
+    }
+    .olah2{
+        font-size: 1.7rem;
+    }
+    .olaimgpequena{
+        height: 1.5rem;
+    }
+
+
+    .tituloh2, .tituloh2exper{
+        font-size: 2rem;
+    }
+    .contatop1{
+        font-size: 0.8rem;
+    }
+
+    .cabecalhoa{
+        font-size: 0.7rem;
+    }
+    .cabecalhoh2{
+        font-size: 1.1rem;
+    }
+
+}
+
+

@@ -10,7 +10,7 @@ import seta from "../assets/seta.png"
 export default function Contato() {
 
     return(
-        <div className={styles.contatodiv1}>
+        <div className={styles.contatodiv1} id="contato">
 
             <h2 className={styles.tituloh2}>Contato</h2>
             <p className={styles.contatop1}>Entre em contato comigo ou siga minha rede social</p>

@@ -5,7 +5,7 @@ import montelogo from "../assets/montelogo.png"
 export default function Formacao() {
 
     return(
-        <div className={styles.formacaodiv1}>
+        <div className={styles.formacaodiv1} id="formacao">
             <h2 className={styles.tituloh2}>Formação</h2>
             <div className={styles.formacaodiv2}>
 

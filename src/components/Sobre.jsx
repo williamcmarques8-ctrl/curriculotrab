@@ -5,7 +5,7 @@ export default function Sobre() {
 
     return( 
             
-            <div className={styles.sobrediv1}>
+            <div className={styles.sobrediv1} id="sobremim">
                 <h2 className={styles.tituloh2}>Sobre mim</h2>
                 <div className={styles.sobrediv2}>
                     <div className={styles.sobrediv3}>
